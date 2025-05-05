@@ -2,9 +2,9 @@ site_name: My MkDocs Material Documentation
 site_url: https://sitename.example
 theme:
  name: material
- font:
-  text: Merriweather Sans
-  code: Red Hat Mono # Change font in code
+ font: 
+  text: Plus Jakarta Sans
+  code: Plus Jakarta Sans # Change font in code
  logo: assets/oniro.png
  favicon: assets/favicon.png
  palette: 
