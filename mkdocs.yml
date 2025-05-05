@@ -1,4 +1,4 @@
-site_name: My MkDocs Material Documentation
+site_name: Oniro Project
 site_url: https://sitename.example
 theme:
  name: material
@@ -40,3 +40,40 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+nav:
+  - Home: index.md
+  - Application Development: 
+      - Development Overview: application-development/index.md
+      - Environment Setup Guide: 
+        - Overview: application-development/environment-setup-config/index.md
+        - System Requirement: application-development/environment-setup-config/system-requirement.md
+        - IDE Installation: application-development/environment-setup-config/ide-installation.md
+        - Environment Configuration: application-development/environment-setup-config/env-config.md
+        - Full SDK & Public SDK: application-development/environment-setup-config/full-public-sdk.md
+        - Developer Account: application-development/environment-setup-config/developer-account.md
+        - Introduction to OHPM: application-development/environment-setup-config/ohpm.md
+        - Common Issues and Solutions: application-development/environment-setup-config/common-issue.md
+      - Create Your First Eclipse Oniro Application:
+        - Overview: application-development/create-first-eclipse-oniro-app/index.md
+        - Create an Eclipse Oniro app using OpenHarmony Template: application-development/create-first-eclipse-oniro-app/create-template.md
+        - Find Project Files: application-development/create-first-eclipse-oniro-app/find-project-files.md
+        - Usage of Previewer: application-development/create-first-eclipse-oniro-app/use-previewer.md
+        - Build the First Page: application-development/create-first-eclipse-oniro-app/build-first-page.md
+        - Build the Second Page: application-development/create-first-eclipse-oniro-app/build-second-page.md
+        - Implementing Page Redirection: application-development/create-first-eclipse-oniro-app/page-redirect.md
+        - Running the Application on a Real Device: application-development/create-first-eclipse-oniro-app/run-real-device.md
+      - Basic Concepts: 
+        - Overview: application-development/basic-concepts/index.md
+        - Application Package Structure in Stage Model: application-development/basic-concepts/app-pack-structure.md
+        - Introduction to ArkTS: application-development/basic-concepts/introduction-to-arkts.md
+        - ArkTS Language Reference: application-development/basic-concepts/arkts-language-reference.md
+        - ArkTS-Based declarative UI Development: application-development/basic-concepts/ui-development/index.md
+        - UIAbility: application-development/basic-concepts/uiability/index.md
+        - State Management: application-development/basic-concepts/state-management/index.md
+      - Resource Categories and Access: 
+        - Overview: application-development/resource-categories-and-access/index.md
+        - Resource Categories: application-development/resource-categories-and-access/resource-categories/index.md
+        - Resource Access: application-development/resource-categories-and-access/resource-access/index.md
+      - Code Labs: application-development/codeLabs/index.md
+
+
