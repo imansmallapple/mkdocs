@@ -63,5 +63,6 @@ To open your project, navigate to `File -> Open...` from the menu tab, navigate 
 
 From here on out you can [add files/folders using the `Explorer` pane](user-interface.md#explorer) or use tools such as [npm](https://www.npmjs.com/) package manager to help you create projects.
 
-{: .note }
+> **Note:**
+>
 > So far you can develop projects in the IDE in a plethora of languages. However, building and running project is still under construction.

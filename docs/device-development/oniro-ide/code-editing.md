@@ -25,5 +25,6 @@ Press `Ctrl+F` to toggle the `Find` feature of the IDE, write the word or phrase
 5. **Replace:** to replace each search result with the word or phrase in the *Replace* field.
 6. **Replace All:** to replace *all* of the search result with the word or phrase in the Replace field, all in one click.
 
-{: .tip }
+> **Note:**
+>
 > To search multiple files at once press `Ctrl+Shift+F`.
