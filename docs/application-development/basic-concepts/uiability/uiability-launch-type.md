@@ -20,7 +20,7 @@ Each time **startAbility()** is called, if a UIAbility instance of this type alr
 **Figure 1** Demonstration effect in singleton mode
 
 <div style="text-align:center">
-    <img src='./images/v2.gif'>
+    <img src='../images/v2.gif'>
 </div>
 
 To use the singleton mode, set **launchType** in the `module.json5` file to **singleton**.
@@ -47,7 +47,7 @@ In multiton mode, each time **startAbility()** is called, a new UIAbility instan
 **Figure 2** Demonstration effect in multiton mode
 
 <div style="text-align:center">
-    <img src='./images/v3.gif'>
+    <img src='../images/v3.gif'>
 </div>
 
 To use the multiton mode, set **launchType** in the `module.json5` file to **multiton**.
@@ -73,7 +73,7 @@ The **specified** mode is used in some special scenarios. For example, in a docu
 **Figure 3** Demonstration effect in specified mode
 
 <div style="text-align:center">
-    <img src='./images/v4.gif'>
+    <img src='../images/v4.gif'>
 </div> 
 
 In the following example, there are two UIAbility components: EntryAbility and SpecifiedAbility (with the launch type **specified**). 

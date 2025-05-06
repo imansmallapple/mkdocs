@@ -147,7 +147,7 @@ struct CompA {
 ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image25.png'>
+    <img src='../../images/image-basic/image25.png'>
 </div>
 
 ### Simple Example of Using @LocalStorageProp with LocalStorage
@@ -195,7 +195,7 @@ struct Child {
 }
 ```
 <div style="text-align:center">
-    <img src='../images/image-basic/image26.png'>
+    <img src='../../images/image-basic/image26.png'>
 </div>
 
 

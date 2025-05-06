@@ -31,7 +31,7 @@ struct TextInputExample {
 }
 ```
 <div style="text-align:center">
-    <img src='../images/image-basic/v10.gif'>
+    <img src='../../images/image-basic/v10.gif'>
 </div>
 
 ### Additional Information

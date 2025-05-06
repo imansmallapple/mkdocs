@@ -15,9 +15,9 @@ By following this documentation, you'll learn how to:
 ## Development Environment
 To start developing Oniro applications, you first need to set up the development environment by installing `DevEco Studio`.
 
-For detailed instructions, please refer to the [Environment Setup Guide](/application-development/environment-setup-config/index).
+For detailed instructions, please refer to the [Environment Setup Guide](environment-setup-config/index.md).
 
 ## Learning Path
 To support your application development, we provide comprehensive development guidelines.
 
-You can familiarize yourself with the application development process by [getting started with a simple project](create-first-eclipse-oniro-app).
+You can familiarize yourself with the application development process by [getting started with a simple project](create-first-eclipse-oniro-app/index.md).

@@ -2,12 +2,12 @@
 ### Create the Second Page
 1. Right click `entry > ets > pages` folder, select `New` and choose `Page`.
 <div style="text-align:center">
-    <img src='./images/image22.png'>
+    <img src='../images/image22.png'>
 </div> 
 
 2. Type 'SecondPage' as the new Page name. 
 <div style="text-align:center">
-    <img src='./images/image23.png'>
+    <img src='../images/image23.png'>
 </div> 
 
 SecondPage created.
@@ -61,5 +61,5 @@ struct SecondPage {
 ```
 You can observe how the second page looks like in the `Previewer`
 <div style="text-align:center">
-    <img src='./images/image24.png'>
+    <img src='../images/image24.png'>
 </div> 

@@ -2,32 +2,18 @@ The declarative UI provides different common layouts like **Linear layout**, **S
 
 In this chapter we will focus on **Linear Layout**, for additional information please refer to [layout overview](https://github.com/eclipse-oniro-mirrors/docs/blob/OpenHarmony-4.1-Release/en/application-dev/ui/arkts-layout-development-overview.md) documentation.
 
-- [Linear Layout Basic Concepts](#basic-concepts)  
-- [Spacing of Child Elements in Arrangement Direction](#spacing-of-child-elements-in-arrangement-direction)  
-    - [In Column Container](#in-column-container)
-    - [In Row Container](#in-row-container)   
-- [Arrangement of Child Elements Along Main Axis](#arrangement-of-child-elements-along-main-axis) 
-    - [In Column Container](#in-column-container-1)   
-    - [In Row Container](#in-row-container-1)   
-- [Arrangement of Child Elements Along Cross Axis](#alignment-of-child-elements-along-cross-axis)  
-    - [Horizontal Alignment of Child Elements in Column Container](#horizontal-alignment-of-child-elements-in-column-container)   
-    - [Vertical Alignment of Child Elements in Row Container](#vertical-alignment-of-child-elements-in-row-container)   
-- [Adaptive Stretching](#adaptive-stretching)  
-- [Adaptive Scaling](#adaptive-scaling)  
-- [To add: Practice demo]()  
-
 **Linear layout** is the most frequently used layout in development, built with the **Row** and **Column** linear containers. The linear layout is the basis of other layouts. Its child elements are arranged in sequence linearly in the horizontal direction, as in a **Row** container, or vertical direction, as in a **Column** container.
 
 **Figure 1** Child element arrangement in a Column container
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image35.png'>
+    <img src='../../images/image-basic/image35.png'>
 </div>
 
 **Figure 2** Child element arrangement in a Row container
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image36.png'>
+    <img src='../../images/image-basic/image36.png'>
 </div>
 
 ## Basic Concepts
@@ -47,12 +33,12 @@ In this chapter we will focus on **Linear Layout**, for additional information p
 In the layout container, use the **space** attribute to equally space child elements in the arrangement direction.
 
 
-### In <Column> Container
+### In Column Container
 
-  **Figure 3** Layout child element spacing in the arrangement direction in the <Column> container 
+  **Figure 3** Layout child element spacing in the arrangement direction in the **Column** container 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image59.png'>
+    <img src='../../images/image-basic/image59.png'>
 </div>
 
 ```ts
@@ -66,16 +52,16 @@ Column({ space: 20 }) {
 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image60.png'>
+    <img src='../../images/image-basic/image60.png'>
 </div>
 
 
-### In <Row> Container
+### In Row Container
 
-  **Figure 4** Layout child element spacing in the arrangement direction in the <Row> container 
+  **Figure 4** Layout child element spacing in the arrangement direction in the **Row** container 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image61.png'>
+    <img src='../../images/image-basic/image61.png'>
 </div>
 
 
@@ -89,19 +75,19 @@ Row({ space: 35 }) {
 ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image62.png'>
+    <img src='../../images/image-basic/image62.png'>
 </div>
 
 ## Arrangement of Child Elements Along Main Axis
 In the layout container, you can use the **justifyContent** attribute to set the arrangement mode of child elements along the main axis. The arrangement may begin from the start point or end point of the main axis, or the space of the main axis can be evenly divided.
 
 
-### In <Column> Container
+### In Column Container
 
-  **Figure 5** Vertical alignment of child elements in the <Column> container
+  **Figure 5** Vertical alignment of child elements in the **Column** container
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image37.png'>
+    <img src='../../images/image-basic/image37.png'>
 </div>
 
 - **justifyContent(FlexAlign.Start)**: The items are vertically aligned with each other toward the start edge of the container.
@@ -120,7 +106,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image38.png'>
+    <img src='../../images/image-basic/image38.png'>
 </div>
 
 - **justifyContent(FlexAlign.Center)**: The elements are vertically aligned with each other toward the center of the container. The space between the first component and the start edge is the same as that between the last component and the end edge.
@@ -139,7 +125,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image39.png'>
+    <img src='../../images/image-basic/image39.png'>
 </div>
 
 - **justifyContent(FlexAlign.End)**: The elements are vertically aligned with each other toward the end edge of the container.
@@ -158,7 +144,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image40.png'>
+    <img src='../../images/image-basic/image40.png'>
 </div>
 
 - **justifyContent(FlexAlign.SpaceBetween)**: The elements are evenly distributed vertically. The space between any two adjacent elements is the same. The first element is aligned with the start edge, the last element is aligned with the end edge, and the remaining elements are distributed so that the space between any two adjacent elements is the same.
@@ -177,7 +163,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image41.png'>
+    <img src='../../images/image-basic/image41.png'>
 </div>
 
 - **justifyContent(FlexAlign.SpaceAround)**: The elements are evenly distributed vertically. The space between any two adjacent elements is the same. The space between the first element and start edge, and that between the last element and end edge are both half the size of the space between two adjacent elements.
@@ -196,7 +182,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image42.png'>
+    <img src='../../images/image-basic/image42.png'>
 </div>
 
 - **justifyContent(FlexAlign.SpaceEvenly)**: The elements are evenly distributed vertically. The space between the first element and start edge, the space between the last element and end edge, and the space between any two adjacent elements are the same.
@@ -215,16 +201,16 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image43.png'>
+    <img src='../../images/image-basic/image43.png'>
 </div>
 
 
-### In <Row> Container
+### In Row Container
 
-  **Figure 6** Horizontal alignment of child elements in the <Row> container 
+  **Figure 6** Horizontal alignment of child elements in the **Row** container 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image44.png'>
+    <img src='../../images/image-basic/image44.png'>
 </div>
 
 - **justifyContent(FlexAlign.Start)**: The items are horizontally aligned with each other toward the start edge of the container.
@@ -243,7 +229,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image45.png'>
+    <img src='../../images/image-basic/image45.png'>
 </div>
 
 - **justifyContent(FlexAlign.Center)**: The elements are horizontally aligned with each other toward the center of the container. The space between the first component and the start edge is the same as that between the last component and the end edge.
@@ -262,7 +248,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image46.png'>
+    <img src='../../images/image-basic/image46.png'>
 </div>
 
 - **justifyContent(FlexAlign.End)**: The elements are horizontally aligned with each other toward the end edge of the container.
@@ -281,7 +267,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image47.png'>
+    <img src='../../images/image-basic/image47.png'>
 </div>
 
 - **justifyContent(FlexAlign.SpaceBetween)**: The elements are evenly distributed horizontally. The space between any two adjacent elements is the same. The first element is aligned with the start edge, the last element is aligned with the end edge, and the remaining elements are distributed so that the space between any two adjacent elements is the same.
@@ -300,7 +286,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image48.png'>
+    <img src='../../images/image-basic/image48.png'>
 </div>
 
 - **justifyContent(FlexAlign.SpaceAround)**: The elements are evenly distributed horizontally. The space between any two adjacent elements is the same. The space between the first element and start edge, and that between the last element and end edge are both half the size of the space between two adjacent elements.
@@ -318,7 +304,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   }.width('100%').height(200).backgroundColor('rgb(242,242,242)').justifyContent(FlexAlign.SpaceAround)
   ```
 <div style="text-align:center">
-    <img src='../images/image-basic/image49.png'>
+    <img src='../../images/image-basic/image49.png'>
 </div>
 
 - **justifyContent(FlexAlign.SpaceEvenly)**: The elements are evenly distributed horizontally. The space between the first element and start edge, the space between the last element and end edge, and the space between any two adjacent elements are the same.
@@ -337,7 +323,7 @@ In the layout container, you can use the **justifyContent** attribute to set the
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image50.png'>
+    <img src='../../images/image-basic/image50.png'>
 </div>
 
 ## Alignment of Child Elements Along Cross Axis
@@ -352,7 +338,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   **Figure 7** Horizontal alignment of child elements in the **Column** container 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image51.png'>
+    <img src='../../images/image-basic/image51.png'>
 </div>
 
 - **HorizontalAlign.Start**: Child elements are left aligned horizontally.
@@ -371,7 +357,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image52.png'>
+    <img src='../../images/image-basic/image52.png'>
 </div>
 
 - **HorizontalAlign.Center**: Child elements are center-aligned horizontally.
@@ -390,7 +376,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image53.png'>
+    <img src='../../images/image-basic/image53.png'>
 </div>
 
 - **HorizontalAlign.End**: Child elements are right-aligned horizontally.
@@ -409,7 +395,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image54.png'>
+    <img src='../../images/image-basic/image54.png'>
 </div>
 
 
@@ -418,7 +404,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   **Figure 8** Vertical alignment of child elements in **Row** container 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image55.png'>
+    <img src='../../images/image-basic/image55.png'>
 </div>
 
 - **VerticalAlign.Top**: Child elements are top-aligned vertically.
@@ -437,7 +423,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image56.png'>
+    <img src='../../images/image-basic/image56.png'>
 </div>
 
 - **VerticalAlign.Center**: Child elements are center-aligned vertically.
@@ -456,7 +442,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image57.png'>
+    <img src='../../images/image-basic/image57.png'>
 </div>
 
 - **VerticalAlign.Bottom**: Child elements are bottom-aligned vertically.
@@ -475,7 +461,7 @@ The layout container also provides the **alignSelf** attribute to control the al
   ```
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image58.png'>
+    <img src='../../images/image-basic/image58.png'>
 </div>
 
 ## Adaptive Stretching
@@ -501,13 +487,13 @@ struct BlankExample {
   **Figure 9** Portrait mode 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image63.png'>
+    <img src='../../images/image-basic/image63.png'>
 </div>
 
   **Figure 10** Landscape mode 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image64.png'>
+    <img src='../../images/image-basic/image64.png'>
 </div>
 
 
@@ -568,13 +554,13 @@ Adaptive scaling means that the size of a child element is automatically adjuste
 **Figure 11** Landscape mode 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image65.png'>
+    <img src='../../images/image-basic/image65.png'>
 </div>
 
   **Figure 12** Portrait mode 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image66.png'>
+    <img src='../../images/image-basic/image66.png'>
 </div>
 
 - When the container size is determined, set the width of a child element in percentage. The container space is then allocated among the element and sibling elements based on the set percentage.
@@ -609,13 +595,13 @@ Adaptive scaling means that the size of a child element is automatically adjuste
 **Figure 13** Landscape mode 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image67.png'>
+    <img src='../../images/image-basic/image67.png'>
 </div>
 
 **Figure 14** Portrait mode 
 
 <div style="text-align:center">
-    <img src='../images/image-basic/image68.png'>
+    <img src='../../images/image-basic/image68.png'>
 </div>
 
 ## Reference

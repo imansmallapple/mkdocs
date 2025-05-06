@@ -9,7 +9,7 @@ The lifecycle of UIAbility has the following states: **Create**, **Foreground**,
 **Figure 1** UIAbility lifecycle states
 
 <div style="text-align:center">
-    <img src='./images/image1.png'>
+    <img src='../images/image1.png'>
 </div>
 
 ## Description of Lifecycle States
@@ -17,7 +17,7 @@ The lifecycle of UIAbility has the following states: **Create**, **Foreground**,
 > **Note**:
 >
 > If you want to check the sample code below, because of limited functionailities of **Previewer**, you need to use real device instead. 
-Before proceeding, make sure you finished reading **[Running the Application on a real Device](../../create-first-eclipse-oniro-app/run-real-device.html)** tutorial.
+Before proceeding, make sure you finished reading **[Running the Application on a real Device](../../create-first-eclipse-oniro-app/run-real-device.md)** tutorial.
 
 ### Create
 
@@ -86,7 +86,7 @@ export default class EntryAbility extends UIAbility {
 The effect is as follows:
 
 <div style="text-align:center">
-    <img src='./images/v1.gif'>
+    <img src='../images/v1.gif'>
 </div>
 
 ### Foreground and Background

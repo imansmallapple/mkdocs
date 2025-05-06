@@ -16,7 +16,7 @@ There are two types of SDKs:
    Use conditional filtering, such as selecting the project as openharmony, selecting the target branch OpenHarmony-4.1-Release, selecting a date from the previous month, or manually choosing a range.  
    
    In the daily build or rolling build, find **ohos-sdk-full_4.1-Release**, and click on the download link to choose and download the full package, which includes Full-SDK for Windows and Linux.  (If daily build SDK is not compatible with your version of DevEco Studio, try to use rolling build SDK instead)  
-<img src='./images/image19.png'>  
+<img src='../images/image19.png'>  
  
 
 | pipeline        | description                                                                                          | remark                                                                                                           |
@@ -36,7 +36,7 @@ Take the replacement of the full SDK of DevEco Studio 4.1, API 11 on Windows OS 
 
 3. Backup and remove the local SDK:  
    Make sure to select OpenHarmony then navigate to the directory where the original SDK is installed.
-<img src='./images/image20.png'>  
+<img src='../images/image20.png'>  
 
 
 
@@ -83,11 +83,11 @@ You can see that it contains SDK files for both Linux and Windows platforms. Eac
                    toolchains-windows-x64-4.1.7.8-Release
 ```
 2. Create a new directory with the API version 11  as the file name in dir path: xxx\\Sdk\\ , unzip the compressed files  into this directory to form a structure below:
-<img src='./images/image21.png'>  
+<img src='../images/image21.png'>  
 
 3. Verify in the IDE:  
    Full API will be loaded in IDE and you can now rebuild the project.  
-<img src='./images/image24.png'>  
+<img src='../images/image24.png'>  
 Full SDK replacement tutorial finished.
 
 ### **Approach 2: From Compiled Source Files**

@@ -60,5 +60,5 @@ struct Index {
 ```
 Now you can observe how the first page looks like in the `Previewer`
 <div style="text-align:center">
-    <img src='./images/image21.png'>
+    <img src='../images/image21.png'>
 </div> 

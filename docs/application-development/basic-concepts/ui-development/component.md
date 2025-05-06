@@ -1,20 +1,19 @@
 # List and Grid Component
 
 - [List Component](#list-component)  
-    - [Layout](#layout)  
+    - [List Layout](#list-layout)  
     - [Display data in List](#display-data-in-list)  
     - [Iterating list content](#iterating-list-content)  
     - [Customizing the list style](#customizing-the-list-style)  
         - [Setting the spacing](#setting-the-spacing)  
         - [Adding Dividers](#adding-dividers)  
         - [Adding a Scrollbar](#adding-a-scrollbar)  
-    - [More information](#more-information)
 - [Grid Component](#grid-component)  
-    - [Layout](#layout-1)  
+    - [Grid Layout](#grid-layout)  
     - [Display data in Grid](#display-data-in-grid)  
     - [Iterating grid content](#iterating-grid-content)  
     - [Setting the Number and Proportion of Rows and Columns](#setting-the-number-and-proportion-of-rows-and-columns)  
-    - [More information](#more-information-1)  
+- [Additional Information](#additional-information)  
 
 ## List Component
 
@@ -22,7 +21,7 @@ In typical mobile applications, list is very common and basic component. For exa
 
 The **List** component supports the generation of child components in various rendering modes like conditional rendering and rendering of repeated content.
 
-### Layout
+### List Layout
 
 A list automatically arranges child components in the direction it scrolls. Adding or removing child components from the list will trigger re-arrangement of the child components.
 
@@ -33,7 +32,7 @@ As shown in the following figure, in a vertical list, **ListItemGroup** or **Lis
   **Figure 1** Relationships between **List**, **ListItemGroup**, and **ListItem** 
 
 <div style="text-align:center">
-    <img src='./images/image1.png'>
+    <img src='../images/image1.png'>
 </div>
 
 >**NOTE**
@@ -47,7 +46,7 @@ The list displays a collection of items horizontally or vertically and can scrol
   **Figure 2** Example of a city list 
 
 <div style="text-align:center">
-    <img src='./images/image2.png'>
+    <img src='../images/image2.png'>
 </div>
 
 ```ts
@@ -79,7 +78,7 @@ Each **\<ListItem>** component can contain only one root child component. Theref
   **Figure 3** Example of a contacts list 
 
 <div style="text-align:center">
-    <img src='./images/image3.png'>
+    <img src='../images/image3.png'>
 </div>
 
 As shown above, as a list item, each contact has a profile picture and a name. To present it, you can encapsulate **Image** and **Text** components into a **Row** container.
@@ -161,16 +160,16 @@ struct SimpleContacts {
 }
 ```
 
-You can get the icons used in above example here: [icon_user1](./images/icon_user1.png), [icon_user2](./images/icon_user2.png), download and put them into your project under the following path:
+You can get the icons used in above example here: [icon_user1](images/icon_user1.png), [icon_user2](images/icon_user2.png), download and put them into your project under the following path:
 `Your project` -> `entry` -> `src` -> `main` -> `resources` -> `base` -> `media`.
 <div style="text-align:center">
-    <img src='./images/image4.png'>
+    <img src='../images/image4.png'>
 </div>
 
 The effect is drawing as follows:
 
 <div style="text-align:center">
-    <img src='./images/image5.png'>
+    <img src='../images/image5.png'>
 </div>
 
 ### Customizing the List Style
@@ -236,7 +235,7 @@ The effect is drawing as follows:
   **Figure 4** Using dividers between the list items 
 
 <div style="text-align:center">
-    <img src='./images/image6.png'>
+    <img src='../images/image6.png'>
 </div>
 
 >**NOTE**
@@ -253,7 +252,7 @@ When the total height (width) of list items exceeds the screen height (width), t
   **Figure 5** Scrollbar of a list
 
 <div style="text-align:center">
-    <img src='./images/v1.gif'>
+    <img src='../images/v1.gif'>
 </div>
 
 When using the **List** component, you can use the **scrollBar** attribute to control the display of the list scrollbar. The value type of **scrollBar** is **BarState**. When the value is **BarState.Auto**, the scrollbar is displayed as required: It is displayed when the scrollbar area is touched and becomes thicker when being dragged; it automatically disappears after 2 seconds of inactivity.
@@ -266,19 +265,16 @@ List() {
 .scrollBar(BarState.Auto)
 ```
 
-### More Information
-You can find more details about **List** component from [this](https://github.com/eclipse-oniro-mirrors/docs/blob/OpenHarmony-4.1-Release/en/application-dev/ui/arkts-layout-development-create-list.md) source.
-
 ## Grid Component  
 The **grid** layout consists of cells formed by rows and columns. You can specify the cells where items are located to create various layouts. The grid layout excels at dividing a page into regions and defining the proportion of child components. It is a key adaptive layout and applies to scenarios such as photo gallery, calendar, and calculator.
 
-### Layout  
+### Grid Layout  
 Each item in the **Grid** container corresponds to a **GridItem** component, as shown below.
 
 **Figure 1** Relationship between **Grid** and **GridItem** components
 
 <div style="text-align:center">
-    <img src='./images/image7.png'>
+    <img src='../images/image7.png'>
 </div>
 
 >**NOTE**
@@ -292,7 +288,7 @@ The grid layout organizes its internal elements in two-dimensional layout mode, 
 **Figure 2** General office services 
 
 <div style="text-align:center">
-    <img src='./images/image8.png'>
+    <img src='../images/image8.png'>
 </div>
 
 The **Grid** component can display a group of **GridItem** child components in two-dimensional layout mode.
@@ -358,7 +354,7 @@ The values of **rowsTemplate** and **columnsTemplate** are a string consisting o
 **Figure 3** Example of the proportion of rows and columns
 
 <div style="text-align:center">
-    <img src='./images/image9.png'>
+    <img src='../images/image9.png'>
 </div>
 
 The preceding figure shows a grid layout with three rows and three columns. The grid layout is divided into three parts in the vertical direction with each row taking up 1/3, and four parts in the horizontal direction with the first column taking up 1/4, the second column 2/4, and the third column 1/4.
@@ -378,5 +374,5 @@ Grid() {
 >
 >When **rowsTemplate** or **columnsTemplate** is set for the **Grid** component, its **layoutDirection**, **maxCount**, **minCount**, and **cellLength** attributes do not take effect.
 
-## Reference
+## Additional Information
 For additional information please refer to [Creating a List](https://github.com/eclipse-oniro-mirrors/docs/blob/OpenHarmony-4.1-Release/en/application-dev/ui/arkts-layout-development-create-list.md) and [Creating a Grid](https://github.com/eclipse-oniro-mirrors/docs/blob/OpenHarmony-4.1-Release/en/application-dev/ui/arkts-layout-development-create-grid.md)

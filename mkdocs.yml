@@ -6,7 +6,7 @@ theme:
   text: Plus Jakarta Sans
   code: Plus Jakarta Sans # Change font in code
  logo: assets/oniro.png
- favicon: assets/favicon.png
+ favicon: assets/favicon.ico
  palette: 
    # Dark mode
   - scheme: slate
@@ -67,13 +67,34 @@ nav:
         - Application Package Structure in Stage Model: application-development/basic-concepts/app-pack-structure.md
         - Introduction to ArkTS: application-development/basic-concepts/introduction-to-arkts.md
         - ArkTS Language Reference: application-development/basic-concepts/arkts-language-reference.md
-        - ArkTS-Based declarative UI Development: application-development/basic-concepts/ui-development/index.md
-        - UIAbility: application-development/basic-concepts/uiability/index.md
-        - State Management: application-development/basic-concepts/state-management/index.md
+        - ArkTS-Based declarative UI Development: 
+          - Overview: application-development/basic-concepts/ui-development/index.md
+          - Component: application-development/basic-concepts/ui-development/component.md
+          - Layout: application-development/basic-concepts/ui-development/layout.md
+        - UIAbility: 
+          - Overview: application-development/basic-concepts/uiability/index.md
+          - UIAbility Component Lifecycle: application-development/basic-concepts/uiability/uiability-lifecycle.md
+          - UIAbility Launch Type: application-development/basic-concepts/uiability/uiability-launch-type.md
       - Resource Categories and Access: 
         - Overview: application-development/resource-categories-and-access/index.md
-        - Resource Categories: application-development/resource-categories-and-access/resource-categories/index.md
+        - Resource Categories:
+            - Overview: application-development/resource-categories-and-access/resource-categories/index.md
+            - Resource Directories: application-development/resource-categories-and-access/resource-categories/resource-directories.md
+            - Resource Group Directories: application-development/resource-categories-and-access/resource-categories/resource-group-directories.md
         - Resource Access: application-development/resource-categories-and-access/resource-access/index.md
+        - State Management: 
+          - Overview: application-development/basic-concepts/state-management/index.md
+          - State Decorator: application-development/basic-concepts/state-management/state-decorator.md
+          - Prop Decorator: application-development/basic-concepts/state-management/prop-decorator.md
+          - Link Decorator: application-development/basic-concepts/state-management/link-decorator.md
+          - Provide and Consume Decorator: application-development/basic-concepts/state-management/provide-consume-decorator.md
+          - Observed and ObjectLink Decorator: application-development/basic-concepts/state-management/observed-objectlink-decorator.md
+          - LocalStorage: application-development/basic-concepts/state-management/localstorage.md
+          - AppStorage: application-development/basic-concepts/state-management/appstorage.md
+          - PersistentStorage: application-development/basic-concepts/state-management/persistentstorage.md
+          - Watch Decorator: application-development/basic-concepts/state-management/watch-decorator.md
+          - $$ Syntax: application-development/basic-concepts/state-management/operator.md
       - Code Labs: application-development/codeLabs/index.md
-
+extra_css:
+  - stylesheets/extra.css
 
