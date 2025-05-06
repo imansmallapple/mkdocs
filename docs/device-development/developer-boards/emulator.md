@@ -13,7 +13,7 @@ The emulator uses the **x86_64 architecture**, which, when run on an x86 host PC
 
 This guide provides step-by-step instructions to **build and run the Oniro Emulator**.
 
-<img src="images/oniro_qemu.gif" alt="Oniro Emulator" width="200"/>
+<img src="../images/oniro_qemu.gif" alt="Oniro Emulator" width="200"/>
 
 ### 📦 Prerequisites
 
