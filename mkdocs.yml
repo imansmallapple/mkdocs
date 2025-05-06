@@ -4,6 +4,7 @@ theme:
  name: material
  features:
    - content.code.copy
+   - content.code.select
  font: 
   text: Plus Jakarta Sans
   code: Plus Jakarta Sans # Change font in code
@@ -97,6 +98,22 @@ nav:
           - Watch Decorator: application-development/basic-concepts/state-management/watch-decorator.md
           - $$ Syntax: application-development/basic-concepts/state-management/operator.md
       - Code Labs: application-development/codeLabs/index.md
+  - Device Development: 
+      - Development Overview: device-development/index.md
+      - Building Oniro: device-development/building-oniro.md
+      - Developer Boards: 
+          - Overview: device-development/developer-boards/index.md
+          - HiHope HH-SCDAYU200: device-development/developer-boards/hihope-hh-scdayu200.md
+          - Raspberry Pi 4 Model B: device-development/developer-boards/raspberry-pi-4model-b.md
+          - Oniro Emulator: device-development/developer-boards/emulator.md
+      - Oniro IDE: 
+          - Overview: device-development/oniro-ide/index.md
+          - Getting Started: device-development/oniro-ide/getting-started.md
+          - User Interface: device-development/oniro-ide/user-interface.md
+          - Code Editing: device-development/oniro-ide/code-editing.md
+          - Code Navigation: device-development/oniro-ide/code-navigation.md
+          - Refactoring: device-development/oniro-ide/refactoring.md
+          - Language Support: device-development/oniro-ide/language-support.md
 extra_css:
   - stylesheets/extra.css
 
