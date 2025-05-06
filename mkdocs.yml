@@ -2,6 +2,8 @@ site_name: Oniro Project
 site_url: https://sitename.example
 theme:
  name: material
+ features:
+   - content.code.copy
  font: 
   text: Plus Jakarta Sans
   code: Plus Jakarta Sans # Change font in code
