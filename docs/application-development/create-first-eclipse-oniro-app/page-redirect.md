@@ -1,4 +1,3 @@
-## Implementing Page Redirection
 You can achieve page navigation using the **page router**, which locates the target page based on its URL. To implement this, first import the router module and follow the steps below.  
 
 To deliver better transition effects, use **Navigation**(Recommended).  

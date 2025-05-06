@@ -1,4 +1,3 @@
-## Running the Application on a Real Device
 ### Install HDC  
 1. Find the [pipeline](https://ci.openharmony.cn/workbench/cicd/dailybuild/dailylist) whose name is ohos-sdk-full or ohos-sdk-public, click Download Link, and select Full Package.
 

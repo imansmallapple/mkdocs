@@ -1,4 +1,3 @@
-## Create an Eclipse Oniro app using OpenHarmony Template 
 To create a project in DevEco Studio:
 
 1. Double-click the DevEco Studio icon to begin.

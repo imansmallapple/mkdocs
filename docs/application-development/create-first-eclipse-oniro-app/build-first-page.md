@@ -1,4 +1,3 @@
-## Build the First Page
 ​Now that you're familiar with DevEco Studio, let's create a simple application that demonstrates page navigation.
 ### Use the `Text` Component
 ​After the project synchronization completes, navigate to `entry > ets > pages` in the **Ohos** window and open the `Index.ets` file. This file contains a Text component. The sample code in the `Index.ets` file is shown below:​

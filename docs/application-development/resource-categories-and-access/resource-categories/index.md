@@ -1,4 +1,4 @@
-## Resource Categories
+# Resource Categories Overview
 
 Resource files used during application development must be stored in specified directories for management. There are two types of resource directories, namely, **resource directories** and **resource group directories**. 
 The resource directories are the **base**, **qualifiers**, **rawfile** directories. The resource group directories are the **element**, **media**, and **profile** directories.

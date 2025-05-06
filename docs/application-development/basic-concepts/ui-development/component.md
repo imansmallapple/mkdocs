@@ -1,20 +1,5 @@
 # List and Grid Component
 
-- [List Component](#list-component)  
-    - [List Layout](#list-layout)  
-    - [Display data in List](#display-data-in-list)  
-    - [Iterating list content](#iterating-list-content)  
-    - [Customizing the list style](#customizing-the-list-style)  
-        - [Setting the spacing](#setting-the-spacing)  
-        - [Adding Dividers](#adding-dividers)  
-        - [Adding a Scrollbar](#adding-a-scrollbar)  
-- [Grid Component](#grid-component)  
-    - [Grid Layout](#grid-layout)  
-    - [Display data in Grid](#display-data-in-grid)  
-    - [Iterating grid content](#iterating-grid-content)  
-    - [Setting the Number and Proportion of Rows and Columns](#setting-the-number-and-proportion-of-rows-and-columns)  
-- [Additional Information](#additional-information)  
-
 ## List Component
 
 In typical mobile applications, list is very common and basic component. For example, we can find list in settings page, contact book, and product catalogs.

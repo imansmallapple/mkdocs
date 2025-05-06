@@ -1,4 +1,3 @@
-## Build the Second Page  
 ### Create the Second Page
 1. Right click `entry > ets > pages` folder, select `New` and choose `Page`.
 <div style="text-align:center">

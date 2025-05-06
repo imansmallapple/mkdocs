@@ -1,4 +1,4 @@
-## Resource Group Directories
+# Resource Group Directories
 
 Resource group directories include **element**, **media**, and **profile**, which are used to store resources of specific types.
 

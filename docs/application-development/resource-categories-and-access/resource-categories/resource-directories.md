@@ -1,4 +1,4 @@
-## Resource Directories
+# Resource Directories
 
 ### base Directory
 

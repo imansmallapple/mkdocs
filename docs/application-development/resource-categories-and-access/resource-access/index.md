@@ -1,8 +1,4 @@
-## Resource Access
-
-- [HAP Resources](#hap-resources)  
-- [Cross-HAP/HSP Resources](#cross-haphsp-resources)  
-- [System Resources](#system-resources)  
+# Resource Access
 
 ### HAP Resources
 

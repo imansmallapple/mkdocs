@@ -1,4 +1,3 @@
-## Find project files
 
 1. In DevEco Studio, take a look at the **Project** tab. The **Project** tab shows the actual file directory structure of the project as well as all project items and their dependencies (including SDKs and libraries)  
 <div style="text-align:center">
