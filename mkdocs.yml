@@ -5,6 +5,7 @@ theme:
  features:
    - content.code.copy
    - content.code.select
+   - navigation.footer
  font: 
   text: Plus Jakarta Sans
   code: Plus Jakarta Sans # Change font in code
@@ -127,7 +128,16 @@ nav:
       - Bug Handling Process: contributing/bug-handling-process.md
       - REUSE Compliance: contributing/reuse-compliance.md
       - Contributing to Projects not Maintained by Team: contributing/contributing-to-projects-not-maintained-by-team.md
-
 extra_css:
   - stylesheets/extra.css
 
+extra:
+  social:
+    - icon: fontawesome/solid/message
+      link: https://chat.eclipse.org/#/room/#oniro:matrix.eclipse.org
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@OniroProject
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/showcase/oniro-project/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/Oniro_Project
