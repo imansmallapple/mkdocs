@@ -1,5 +1,5 @@
 site_name: Oniro Project
-site_url: https://sitename.example
+site_url: https://imansmallapple.github.io/mkdocs/
 theme:
  name: material
  features:
@@ -16,7 +16,7 @@ theme:
     toggle:
      icon: material/weather-sunny
      name: Dark mode
-    primary: green
+    primary: indigo
     accent: deep purple
 
   # Light mode
@@ -114,6 +114,16 @@ nav:
           - Code Navigation: device-development/oniro-ide/code-navigation.md
           - Refactoring: device-development/oniro-ide/refactoring.md
           - Language Support: device-development/oniro-ide/language-support.md
+  - Contributing:
+      - Overview: contributing/index.md
+      - Quick Start Guide for New Developer: contributing/quick-start-guide-for-new-developers.md
+      - Eclipse Contributor Agreement: contributing/eclipse-contributor-agreement.md
+      - DCO-signoff: contributing/dco-signoff.md
+      - GitHub Contributions: contributing/github-contributions.md
+      - Bug Handling Process: contributing/bug-handling-process.md
+      - REUSE Compliance: contributing/reuse-compliance.md
+      - Contributing to Projects not Maintained by Team: contributing/contributing-to-projects-not-maintained-by-team.md
+
 extra_css:
   - stylesheets/extra.css
 
