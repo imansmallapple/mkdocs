@@ -45,6 +45,10 @@ markdown_extensions:
   - pymdownx.details
 nav:
   - Home: index.md
+  - Eclipse Oniro Project:
+      - OpenHarmony Downstream / Upstream Relationship: eclipse-oniro-project/openharmony-relationship.md
+      - OpenHarmony Mirror: eclipse-oniro-project/openharmony-mirror.md
+      - Oniro Architecture: eclipse-oniro-project/oniro-architecture.md
   - Application Development: 
       - Development Overview: application-development/index.md
       - Environment Setup Guide: 
